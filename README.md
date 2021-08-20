@@ -82,3 +82,7 @@ To test it, run:
 ```sh
 go run cmd/client/client_bidirectional_stream.go
 ```
+
+Animation:
+
+![Video showing client and server running](./bidirectional-example.gif)

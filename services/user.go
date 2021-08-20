@@ -109,6 +109,8 @@ func (*UserService) AddUserBidirectionalStream(stream pb.UserService_AddUserBidi
 			log.Fatalf("Could not receive the stream message: %v", err)
 		}
 
+		fmt.Printf("User %v added!\n", req.Name)
+
 		err = stream.Send(&pb.UserResultStream{
 			Status: "Added",
 			User:   req,
