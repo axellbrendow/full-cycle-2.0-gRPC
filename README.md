@@ -83,6 +83,6 @@ To test it, run:
 go run cmd/client/client_bidirectional_stream.go
 ```
 
-Animation:
+Inserting multiple users through the same connection and stream:
 
 ![Video showing client and server running](./bidirectional-example.gif)
